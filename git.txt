@@ -1,0 +1,27 @@
+git init gitの立ち上げ　initialize
+
+１コードを準備する
+
+２共有する準備をする
+git add ファイル名
+git commit -m "コメント"
+
+３共有する
+リモートリポジトリの準備(リポジトリのURLを用意する)
+リモートリポジトリを登録する際には名前をつける必要があり、一般的には「origin」とする事が多い
+git remote add リモートリポジトリ名 URL
+git push リモートリポジトリ名 master
+
+４ダウンロードする
+git pull リモートリポジトリ名 master
+
+
+==まとめ==
+add--commit--push--pull
+
+git add ファイル名
+git commit -m "コメント"
+git remote add リモートリポジトリ名 URL （初回だけ）
+git push リモートリポジトリ名 master
+git pull リモートリポジトリ名 master
+
